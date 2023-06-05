@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #FFF2CC;
+    background-color: #408E91;
 }
 
 .header {
@@ -11,32 +11,33 @@
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #DFA67B;
+    background-color: #D8D8D8;
     color: #FFF2CC;
 }
 
 .header h1 {
     background-color: transparent;
+    color: #408E91;
 }
 
 .header ul {
     display: flex;
     justify-content: space-between;
-    background-color: #DFA67B;
+    background-color: #D8D8D8;
     width: 100%;
     min-width: 250px;
     list-style: none;
-    color: #DFA67B;
+    color: #D8D8D8;
 }
 
 .header li {
-    background-color: #DFA67B;
+    background-color: #D8D8D8;
 }
 
 .header a {
     text-decoration: none;
-    color: #FFF2CC;
-    background-color: #DFA67B
+    color: #408E91;
+    background-color: #D8D8D8;
 }
 
 
@@ -49,9 +50,10 @@
 .welcome-verbiage {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFF2CC;
+    background-color: #D8D8D8;
     color: #DFA67B;
 }
 
@@ -59,15 +61,33 @@
     font-size: 36px;
     text-align: center;
     margin: 0;
+    color: #408E91;
     background-color: transparent;
 }
+
+.welcome-verbiage h3 {
+    background-color: #D8D8D8;
+    color: #408E91;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0%;
+    background-color: #E49393;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
 
 .welcome-image {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFF2CC;
+    background-color: #D8D8D8;
 }
 
 .welcome-image img {
@@ -75,7 +95,7 @@
     height: 450px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px #DFA67B;
+    border: 17px solid #E49393;
 }
 
 
