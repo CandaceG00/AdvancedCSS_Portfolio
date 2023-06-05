@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #D8D8D8;
+    background-color: #fffffd;
     color: #FFF2CC;
 }
 
@@ -23,21 +23,21 @@
 .header ul {
     display: flex;
     justify-content: space-between;
-    background-color: #D8D8D8;
+    background-color: #fffffd;
     width: 100%;
     min-width: 250px;
     list-style: none;
-    color: #D8D8D8;
+    color: #fffffd;
 }
 
 .header li {
-    background-color: #D8D8D8;
+    background-color: #fffffd;
 }
 
 .header a {
     text-decoration: none;
     color: #408E91;
-    background-color: #D8D8D8;
+    background-color: #fffffd;
 }
 
 
@@ -53,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #D8D8D8;
+    background-color: #fffffd;
     color: #DFA67B;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .welcome-verbiage h3 {
-    background-color: #D8D8D8;
+    background-color: transparent;
     color: #408E91;
 }
 
@@ -75,7 +75,7 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 0%;
-    background-color: #E49393;
+    background-color: #CCD5AE;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D8D8D8;
+    background-color: #fffffd;
 }
 
 .welcome-image img {
@@ -95,7 +95,7 @@
     height: 450px;
     object-fit: cover;
     border-radius: 50%;
-    border: 17px solid #E49393;
+    border: 17px solid #CCD5AE;
 }
 
 
@@ -122,6 +122,7 @@
     justify-content: center;
     align-items: center;
     color: #D8D8D8;
+    border-right: 5x solid #D8D8D8;
 }
 
 .about-paragraph {
@@ -138,3 +139,65 @@
     background-color: transparent;
     color: #D8D8D8;
 }
+
+#work-section {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 1200px;
+  }
+  
+  .work {
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
+  .work h2 {
+    font-size: 25px;
+    text-align: right;
+    margin: 0;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #D8D8D8;
+    border-right: 5px solid #D8D8D8;
+  }
+  
+  .work-projects {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+  }
+  
+  .work-project1 {
+    width: 100%;
+    background-color: #CCD5AE;
+  }
+  
+  .work-project2 {
+    width: 50%;
+    background-color: #DFA67B;
+  }
+
+  .work-project3 {
+    width: 50%;
+    background-color: #4adb8c;
+  }
+
+  .work-project4 {
+    width: 50%;
+    background-color: #FFF2CC;
+  }
+
+  .work-project5 {
+    width: 50%;
+    background-color: aquamarine;
+  }
+  
+  
