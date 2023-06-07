@@ -116,9 +116,8 @@
 
 .about h2 {
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     margin: 0;
-    padding-right: 25px;
     justify-content: center;
     align-items: center;
     color: #D8D8D8;
@@ -157,9 +156,8 @@
   
   .work h2 {
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     margin: 0;
-    padding-right: 25px;
     justify-content: center;
     align-items: center;
     color: #D8D8D8;
@@ -172,32 +170,72 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 5px;
+    padding: 0px;
   }
   
   .work-project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: #CCD5AE;
+    margin-bottom: 10px;
+    
+  }
+
+  .work-project1 h4 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #170d0d;
+    background-color: transparent;
   }
   
-  .work-project2 {
-    width: 50%;
+  .work-project2,
+  .work-project3,
+  .work-project4,
+  .work-project5 {
+    display: flex;
+    width: calc(50% - 5px);
     background-color: #DFA67B;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .work-project2 {
+    margin-right: 10px; 
   }
 
   .work-project3 {
-    width: 50%;
+    width: calc(50% - 5px);
     background-color: #4adb8c;
+    margin-bottom: 10px;
   }
 
   .work-project4 {
-    width: 50%;
+    width: calc(50% - 5px);
     background-color: #FFF2CC;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   .work-project5 {
-    width: 50%;
+    width: calc(50% - 5px);
     background-color: aquamarine;
+    margin-bottom: 10px;
   }
   
+  .work-project2 h4,
+  .work-project3 h4,
+  .work-project4 h4,
+  .work-project5 h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: #170d0d;
+    background-color: transparent;
+  }
   
