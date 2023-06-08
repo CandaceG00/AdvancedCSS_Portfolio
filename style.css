@@ -103,7 +103,7 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
     height: 100px;
 }
 
@@ -112,6 +112,7 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  border: 1px solid #fff;
 }
 
 .about h2 {
@@ -119,6 +120,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .about-paragraph {
@@ -149,6 +151,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  border: 1px solid #fff;
 }
 
 .work h2 {
