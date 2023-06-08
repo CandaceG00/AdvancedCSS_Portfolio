@@ -139,96 +139,133 @@
 }
 
 #work-section {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 1200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.work {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.work h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.work-projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.work-project1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-image: url(images/bw_swirl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.work-project2,
+.work-project3,
+.work-project4,
+.work-project5 {
+  display: flex;
+  width: calc(50% - 5px);
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.work-project2 {
+  margin-right: 10px;
+  background-image: url(images/bwlines.jpg);
+}
+
+.work-project3 {
+  width: calc(50% - 5px);
+  background-image: url(images/triangles.jpg);
+  margin-bottom: 10px;
+}
+
+.work-project4 {
+  width: calc(50% - 5px);
+  background-color: #FFF2CC;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(images/webcolors.jpg);
+}
+
+.work-project5 {
+  width: calc(50% - 5px);
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  background-image: url(images/coloredthreads.jpg);
+}
+
+.work-project1 h4,
+.work-project2 h4,
+.work-project3 h4,
+.work-project4 h4,
+.work-project5 h4 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  color: #fffffd;
+  background-color: transparent;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h4 {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #welcome-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .welcome-image {
+    order: 1;
+  }
+  .welcome-verbiage {
+    order: 2;
+    margin-top: 20px;
   }
 
-  .work {
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
+  #work-section {
+    flex-direction: column;
   }
-
-  .work h2 {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .work-projects {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 0px;
-  }
-  
-  .work-project1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-image: url(images/bw_swirl.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-  }
-  
+  .work-project1,
   .work-project2,
   .work-project3,
   .work-project4,
   .work-project5 {
-    display: flex;
-    width: calc(50% - 5px);
-    background-color: #DFA67B;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .work-project2 {
-    margin-right: 10px; 
-  }
-
-  .work-project3 {
-    width: calc(50% - 5px);
-    background-color: #4adb8c;
-    margin-bottom: 10px;
-  }
-
-  .work-project4 {
-    width: calc(50% - 5px);
-    background-color: #FFF2CC;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-  .work-project5 {
-    width: calc(50% - 5px);
-    background-color: aquamarine;
-    margin-bottom: 10px;
-  }
-  
-  .work-project1 h4,
-  .work-project2 h4,
-  .work-project3 h4,
-  .work-project4 h4,
-  .work-project5 h4 {
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    color: #fffffd;
-    background-color: transparent;
-  }
-
-  .footer {
     width: 100%;
-    height: 90px;
-    background-color: #408E91;
   }
+
+}
   
