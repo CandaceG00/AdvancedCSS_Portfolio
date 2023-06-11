@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #408E91;
+    background-color: #42914f;
 }
 
 .header {
@@ -16,7 +16,7 @@
 
 .header h1 {
     background-color: transparent;
-    color: #408E91;
+    color: #42914f;
 }
 
 .header ul {
@@ -34,11 +34,11 @@
 
 .header a {
     text-decoration: none;
-    color: #408E91;
+    color: #42914f;
 }
 
 .header a:hover {
-  color: #CCD5AE;
+  color: #bcca6e;
 }
 
 
@@ -65,7 +65,7 @@
 
 .welcome-verbiage h1, .welcome-verbiage h3 {
   background-color: transparent;
-  color: #408E91;
+  color: #42914f;
 }
 
 .round-button {
@@ -74,7 +74,7 @@
     font-size: 16px;
     border-radius: 20px;
     background-color: #fffffd;
-    border: 2px solid #408E91;
+    border: 2px solid #42914f;
   }
 
   .round-button a {
@@ -84,7 +84,7 @@
   }
 
   .round-button:hover {
-    background-color: #CCD5AE;
+    background-color: #bcca6e;
     border: none;
   }
 
@@ -105,11 +105,11 @@
     height: 450px;
     object-fit: cover;
     border-radius: 50%;
-    border: 17px solid #408E91;
+    border: 17px solid #42914f;
 }
 
 .welcome-image:hover img {
-  border: 17px solid #CCD5AE;
+  border: 17px solid #bcca6e;
 }
 
 
