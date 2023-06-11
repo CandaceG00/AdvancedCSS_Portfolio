@@ -26,9 +26,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 * This webpage can be used to view about and contact information, as well as in the future links to completed sample projects for CMG Development. See link to deployed webpage below.
 
-* Link: https://candaceg00.github.io/Challenge_1/
+* Link: https://candaceg00.github.io/AdvancedCSS_Portfolio/
 
 * Screenshots:
-    <img src="./assets/images/horiseon1-screenshot.png"/>
-    <img src="./assets/images/horiseon2-screenshot.png"/>
-    <img src="./assets/images/horiseon3-screenshot.png"/>
+    <img src="./images/portfolio1_screenshot.png"/>
+    <img src="./images/portfolio2_screenshot.png"/>
+    <img src="./images/portfolio3_screenshot.png"/>
+    <img src="./images/portfolio4_screenshot.png"/>
