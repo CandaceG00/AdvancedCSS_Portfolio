@@ -12,7 +12,6 @@
     align-items: center;
     padding: 1%;
     background-color: #fffffd;
-    color: #FFF2CC;
 }
 
 .header h1 {
@@ -27,17 +26,19 @@
     width: 100%;
     min-width: 250px;
     list-style: none;
-    color: #fffffd;
 }
 
-.header li {
+.header li, header a {
     background-color: #fffffd;
 }
 
 .header a {
     text-decoration: none;
     color: #408E91;
-    background-color: #fffffd;
+}
+
+.header a:hover {
+  color: #CCD5AE;
 }
 
 
@@ -54,20 +55,17 @@
     justify-content: center;
     align-items: center;
     background-color: #fffffd;
-    color: #DFA67B;
 }
 
 .welcome-verbiage h1 {
     font-size: 36px;
     text-align: center;
     margin: 0;
-    color: #408E91;
-    background-color: transparent;
 }
 
-.welcome-verbiage h3 {
-    background-color: transparent;
-    color: #408E91;
+.welcome-verbiage h1, .welcome-verbiage h3 {
+  background-color: transparent;
+  color: #408E91;
 }
 
 .round-button {
@@ -75,17 +73,24 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 20px;
-    background-color: #CCD5AE;
-    border: none;
-
+    background-color: #fffffd;
+    border: 2px solid #408E91;
   }
 
   .round-button a {
     text-decoration: none;
-    color: #fffffd;
+    color: #408E91;
     background-color: transparent;
   }
-  
+
+  .round-button:hover {
+    background-color: #CCD5AE;
+    border: none;
+  }
+
+  .round-button:hover a {
+    color: #fffffd;
+  }
 
 .welcome-image {
     flex: 1;
@@ -100,7 +105,11 @@
     height: 450px;
     object-fit: cover;
     border-radius: 50%;
-    border: 17px solid #CCD5AE;
+    border: 17px solid #408E91;
+}
+
+.welcome-image:hover img {
+  border: 17px solid #CCD5AE;
 }
 
 
@@ -112,37 +121,29 @@
     height: 100px;
 }
 
-.about {
+.about, .about-paragraph {
   width: 100%;
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  border: 1px solid #fff;
+}
+
+.about {
+  border: 1px solid #fffffd;
 }
 
 .about h2 {
-  color: #fff;
-  align-items: center;
-  justify-content: center;
+  color: #fffffd;
   text-align: center;
-  cursor: pointer;
-}
-
-.about-paragraph {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
 }
 
 .about-paragraph p {
     font-size: 14px;
     text-align: center;
-    justify-content: center;
     margin: 0;
     padding-left: 20px;
     background-color: transparent;
-    color: #D8D8D8;
+    color: #fffffd;
 }
 
 #work-section {
@@ -156,11 +157,11 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
+  border: 1px solid #fffffd;
 }
 
 .work h2 {
-  color: #fff;
+  color: #fffffd;
   text-align: center;
 }
 
@@ -185,6 +186,15 @@
   margin-bottom: 10px;
 }
 
+.work-project1:hover {
+  border: 2px solid #fffffd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-project1:hover h4 {
+  font-size: 22px;
+}
+
 .work-project2,
 .work-project3,
 .work-project4,
@@ -205,25 +215,59 @@
   background-image: url(images/bwlines.jpg);
 }
 
+.work-project2:hover {
+  border: 2px solid #fffffd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-project2:hover h4 {
+  font-size: 22px;
+}
+
 .work-project3 {
   width: calc(50% - 5px);
   background-image: url(images/triangles.jpg);
   margin-bottom: 10px;
 }
 
+.work-project3:hover {
+  border: 2px solid #fffffd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-project3:hover h4 {
+  font-size: 22px;
+}
+
 .work-project4 {
   width: calc(50% - 5px);
-  background-color: #FFF2CC;
   margin-right: 10px;
   margin-bottom: 10px;
   background-image: url(images/webcolors.jpg);
 }
 
+.work-project4:hover {
+  border: 2px solid #fffffd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-project4:hover h4 {
+  font-size: 22px;
+}
+
 .work-project5 {
   width: calc(50% - 5px);
-  background-color: aquamarine;
   margin-bottom: 10px;
   background-image: url(images/coloredthreads.jpg);
+}
+
+.work-project5:hover {
+  border: 2px solid #fffffd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.work-project5:hover h4 {
+  font-size: 22px;
 }
 
 .work-project1 h4,
@@ -251,13 +295,12 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #fffffd;
 }
 
 .contact h2 {
-  color: #fff;
+  color: #fffffd;
   text-align: center;
-  cursor: pointer;
 }
 
 .contact-nav {
@@ -282,28 +325,23 @@
   color: #fffffd;
 }
 
-
-
-
-
-
-
-
 .footer {
   width: 100%;
   height: auto;
   background-color: transparent;
   align-items: center;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer h4 {
-  color: #fff;
+  color: #fffffd;
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  #welcome-section {
+  #welcome-page {
     flex-direction: column;
     height: auto;
   }
@@ -312,18 +350,29 @@
   }
   .welcome-verbiage {
     order: 2;
-    margin-top: 20px;
   }
 
   #work-section {
     flex-direction: column;
   }
+
+  .work {
+    margin-top: 10px;
+  }
+
+  .about-paragraph {
+    margin-bottom: 10px;
+  }
+
   .work-project1,
   .work-project2,
   .work-project3,
   .work-project4,
   .work-project5 {
     width: 100%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }
