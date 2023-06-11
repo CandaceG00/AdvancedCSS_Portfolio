@@ -184,6 +184,7 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .work-project1:hover {
@@ -208,6 +209,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .work-project2 {
